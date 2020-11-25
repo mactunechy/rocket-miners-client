@@ -4,7 +4,7 @@ import AuthStore from './authStore';
 const apiClient = create({
     baseURL:
         process.env.NODE_ENV === 'production'
-            ? 'http://rocket-miners.herokuapp.com'
+            ? 'https://rocket-miners.herokuapp.com'
             : 'http://localhost:1337',
 });
 
