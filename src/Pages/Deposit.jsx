@@ -41,7 +41,7 @@ function Deposit() {
             <AuthenticatedNavbar />
             <div
                 className="justify-content-center align-items-center row mx-0"
-                style={{ minHeight: ' 100vh', width: '100%', marginTop: 100 }}
+                style={{ minHeight: ' 100vh', width: '100%', marginTop: 120 }}
             >
                 <div className="col-md-6 col-sm-10">
                     <div className="card">
