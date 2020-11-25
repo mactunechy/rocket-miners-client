@@ -16,8 +16,7 @@ function LandingPage() {
                             className="navbar-brand"
                             href="/"
                         >
-                            Rocket -{' '}
-                            <span className="text-danger">Miners</span>
+                            Rocket - <span className="text-danger">Miners</span>
                         </a>
                         <button
                             className="navbar-toggler"
@@ -33,19 +32,22 @@ function LandingPage() {
                         </button>
                     </div>
                     <div className="collapse navbar-collapse">
-        <ul className="navbar-nav ml-auto">
-          <li className="nav-item">
-            <Link className="btn btn-danger" to='signup' >
-              Join Now
-            </Link>
-          </li>
-          <li className=" nav-item">
-            <Link to='login' className=" nav-link" data-toggle="dropdown">
-             <i className="fa fa-sign-in" />  Login
-            </Link>
-           
-          </li>
-          {/* <li className="nav-item">
+                        <ul className="navbar-nav ml-auto">
+                            <li className="nav-item">
+                                <Link className="btn btn-danger" to="signup">
+                                    Join Now
+                                </Link>
+                            </li>
+                            <li className=" nav-item">
+                                <Link
+                                    to="login"
+                                    className=" nav-link"
+                                    data-toggle="dropdown"
+                                >
+                                    <i className="fa fa-sign-in" /> Login
+                                </Link>
+                            </li>
+                            {/* <li className="nav-item">
             <a className="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank" data-original-title="Follow us on Twitter" rel="nofollow">
               <i className="fa fa-twitter"></i>
             </a>
@@ -60,8 +62,8 @@ function LandingPage() {
               <i className="fa fa-instagram"></i>
             </a>
           </li> */}
-        </ul>
-      </div>
+                        </ul>
+                    </div>
                 </div>
             </nav>
             <div
@@ -86,12 +88,18 @@ function LandingPage() {
                                 10 working days
                             </h4>
                             <br />
-                            <a
-                                href="/"
+                            <Link
+                                to="/login"
+                                className="btn btn-outline-danger btn-raised btn-lg"
+                            >
+                                <i className="fa fa-coins"></i> Login Now
+                            </Link>
+                            <Link
+                                to="/signup"
                                 className="btn btn-danger btn-raised btn-lg"
                             >
                                 <i className="fa fa-coins"></i> Invest Today
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -101,7 +109,9 @@ function LandingPage() {
                     <div className="section text-center">
                         <div className="row">
                             <div className="col-md-8 ml-auto mr-auto">
-                                <h2 className="title">Let&apos;s talk product</h2>
+                                <h2 className="title">
+                                    Let&apos;s talk product
+                                </h2>
                                 <h5 className="description">
                                     We mine Bitcoin using rented servers ( from
                                     the UK) from a Bitmain rig fitted with 2,500
@@ -114,17 +124,28 @@ function LandingPage() {
                         </div>
                     </div>
                     <div className="section py-0 row justify-content-center align-items-center">
-                     <div className="btn-group-lg col-md-6 text-center">
-   <Link to='/login' className='btn btn-lg btn-outline-danger btn-round' >Login</Link>
-                        <Link to='/signup' className='btn btn-lg btn-round btn-danger' >Join Now</Link>
-                     </div>
-
+                        <div className="btn-group-lg col-md-6 text-center">
+                            <Link
+                                to="/login"
+                                className="btn btn-lg btn-outline-danger btn-round"
+                            >
+                                Login
+                            </Link>
+                            <Link
+                                to="/signup"
+                                className="btn btn-lg btn-round btn-danger"
+                            >
+                                Join Now
+                            </Link>
+                        </div>
                     </div>
 
                     <div className="section section-contacts">
                         <div className="row">
                             <div className="col-md-8 ml-auto mr-auto">
-                                <h2 className="text-center title">Work with us</h2>
+                                <h2 className="text-center title">
+                                    Work with us
+                                </h2>
                                 <h4 className="text-center description">
                                     For the past few months, we have been
                                     working with close friends mining the
@@ -132,7 +153,11 @@ function LandingPage() {
                                     could share this technology with others and
                                     we can profit as larger group
                                 </h4>
-                            <h4 className="text-center text-info">For more information on how we operate please contact us via the below contact details</h4>
+                                <h4 className="text-center text-info">
+                                    For more information on how we operate
+                                    please contact us via the below contact
+                                    details
+                                </h4>
                             </div>
                         </div>
                     </div>
@@ -143,21 +168,21 @@ function LandingPage() {
                     <nav className="float-left">
                         <ul>
                             <li>
-                                <a href="/">
-                                    Rocket - Miners
-                                </a>
+                                <a href="/">Rocket - Miners</a>
                             </li>
-                            <li >
-                                <a href="mailto:delan@i4ria.com" className="text-lowercase">
-                                Email Us on delan@i4ria.com
+                            <li>
+                                <a
+                                    href="mailto:delan@i4ria.com"
+                                    className="text-lowercase"
+                                >
+                                    Email Us on delan@i4ria.com
                                 </a>
                             </li>
                             <li>
                                 <a href="phone:+263712025161">
-                                Call /Whatsapp : +263712025161
+                                    Call /Whatsapp : +263712025161
                                 </a>
                             </li>
-                           
                         </ul>
                     </nav>
                     <div className="copyright float-right">
@@ -165,7 +190,8 @@ function LandingPage() {
                         <script>
                             document.write(new Date().getFullYear())
                         </script>
-                        , made with <i className="material-icons">favorite</i> by { ' '}
+                        , made with <i className="material-icons">favorite</i>{' '}
+                        by{' '}
                         <a
                             href="https://www.innovqod.co.zw"
                             rel="noreferrer"

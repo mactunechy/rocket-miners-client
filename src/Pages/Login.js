@@ -32,10 +32,10 @@ function Login() {
     };
     return (
         <div
-            className="justify-content-center align-items-center row"
+            className=" row justify-content-center align-items-center mx-0"
             style={{ minHeight: ' 100vh', width: '100%' }}
         >
-            <div className="col-md-6 col-sm-10">
+            <div className="col-md-6 col-sm-12">
                 <div className="card">
                     <div className="card-header">
                         <h3 className="card-title">

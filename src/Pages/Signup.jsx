@@ -36,7 +36,7 @@ function Signup() {
     // console.log(getRolesApi.data?.roles.find((r) => r.name === 'client'));
     return (
         <div
-            className="justify-content-center align-items-center row"
+            className="justify-content-center align-items-center row m-0"
             style={{ minHeight: ' 100vh', width: '100%' }}
         >
             <div className="col-md-6 col-sm-10">
